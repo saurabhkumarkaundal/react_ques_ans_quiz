@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+body{
+  background-image:url('https://t4.ftcdn.net/jpg/04/39/13/37/360_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg');
+  font-family: serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  overflow: hidden;
+}
+.quiz-container{
+  font-size: 2.0rem;
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow:0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: fit-content;
+  height: fit-content;
+  overflow: auto;
+}
+.inputbox{
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+button{
+  padding-top: 3px;
+  margin-left: 10px;
+  font-style: inherit;
+  background-color: rgb(63, 59, 59);
+  color: azure;
+  font-size: 20px;
+}
+#heading{
+  background-color: #69858d;
+  border-radius: 10px;
+}
+label{
+  font-size: 30px;
+  padding-right: 10px;
+  font-style: inherit;
+  font-weight: bolder;
+}
